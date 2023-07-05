@@ -1,3 +1,9 @@
+/*File Name server.js
+Name:Nimesha Mathale Ralalage
+Student ID:301330418
+Date:7 July 2023*/
+
+
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');
@@ -18,8 +24,11 @@ let server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
+server.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
 
-server.listen(port);
+
 server.on('error', onError);
 server.on('listening', onListening);
 
