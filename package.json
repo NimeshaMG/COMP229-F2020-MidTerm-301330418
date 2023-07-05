@@ -45,17 +45,17 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/NimeshaMG/COMP229-F2020-MidTerm-301330418"
   },
   "keywords": [
     "NodeJS",
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Nimesha Mathale Ralalage",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/NimeshaMG/COMP229-F2020-MidTerm-301330418/issues"
   },
   "homepage": ""
 }

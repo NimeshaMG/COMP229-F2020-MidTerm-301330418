@@ -44,7 +44,7 @@ Date:7 July 2023-->
                     <!-- ADD the EDIT BUTTON HERE -->
                     <!-- ------------------------ -->
                     <td>
-                      <a href="/books/<%= book._id %>" class="btn btn-secondary">Edit</a>
+                      <a href="/books/edit<%= book[count]._id %>" class="btn btn-primary btn-sm edit"><i class="fas fa-edit fa sm"></i>Edit</a>
                     </td>
                     
                   </td>
@@ -54,7 +54,7 @@ Date:7 July 2023-->
                     <!-- ADD the DELETE BUTTON HERE -->
                     <!-- ------------------------ -->
                     <td>
-                      <a href="/books/delete/<%= book._id %>" class="btn btn-danger">Delete</a>
+                      <a href="/books/delete<%= book[count]._id %>" class="btn btn-danger btn-sm delete"><i class="fas fa-edit"></i>Delete</a>
                     </td>
                   </td>
                 </tr>
