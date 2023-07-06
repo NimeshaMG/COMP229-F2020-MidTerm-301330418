@@ -1,10 +1,3 @@
-/*File Name index.js
-Name:Nimesha Mathale Ralalage
-Student ID:301330418
-Date:7 July 2023*/
-
-
-
 // modules required for routing
 let express = require('express');
 let router = express.Router();
