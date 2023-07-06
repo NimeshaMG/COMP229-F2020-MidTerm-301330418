@@ -93,7 +93,8 @@ router.post('/edit/:id', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
-    let id = req.params.id;
+
+  let id = req.params.id;
   let updatedBook = {
     "Title": req.body.Title,
     "Description": req.body.Description,
@@ -107,7 +108,7 @@ router.post('/edit/:id', (req, res, next) => {
       console.log(err);
       res.end(err);
     } else {
-      res.redirect('/book');
+      res.redirect('/books');
     }
   });
 });
